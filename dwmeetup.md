@@ -2,7 +2,7 @@
 
 https://github.com/hongjsk/predict-opioid-prescribers/blob/master/README-ko.md
 
-## 실습 환경 설정
+## 로컬 실습 환경 설정
 
 ### python 및 jupyter notebook 설치
 
