@@ -14,15 +14,6 @@ pip3 install jupyter
 pip3 install --user pixiedust scipy sklearn matplotlib pandas
 ```
 
-### git 저장소 복제
-
-``` bash
-$ git clone -b dwmeetup https://github.com/hongjsk/predict-opioid-prescribers.git
-$ cd predict-opioid-prescribers
-
-```
-
-
 ### nginx 설정
 
 ``` bash
@@ -62,20 +53,34 @@ location /jupyter {
 $ sudo service nginx restart
 ```
 
+
+### git 저장소 복제
+
+``` bash
+$ git clone -b dwmeetup https://github.com/hongjsk/predict-opioid-prescribers.git
+$ cd predict-opioid-prescribers
+
+```
+
 ### jupyter notebook 실행
 
 ``` bash
 $ jupyter notebook
 ```
 
-
+출력되는 메시지에서 토큰 정보 확인
+``` bash
+...
+   http://localhost:8888/notebook/?token=<토큰>
+...
+```
 
 ### Jupyter Note 접속
 
 웹 브라우저로 다음 URL 접속
 
 ```
-https://<가상머신 주소>/jupyter
+https://<가상머신 주소>/jupyter/?token=<토큰>
 ```
 
 ## 참고
