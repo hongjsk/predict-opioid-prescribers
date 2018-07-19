@@ -14,14 +14,22 @@ pip3 install jupyter
 pip3 install --user pixiedust scipy sklearn matplotlib pandas
 ```
 
-### nginx 설정
+### jupyter 설정
 
 ``` bash
 $ jupyter notebook --generate-config
 ```
 
+설정 파일 편집
+
+```
+$ vi ~/.jupyter/jupyter_notebook_config.py
+```
+
 ``` python
+...
 c.NotebookApp.notebook_dir = '/jupyter'
+...
 ```
 
 ### nginx 설정 파일 변경
