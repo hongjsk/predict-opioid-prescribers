@@ -17,7 +17,7 @@ pip3 install --user pixiedust scipy sklearn matplotlib pandas
 ### git 저장소 복제
 
 ``` bash
-$ git clone https://github.com/hongjsk/predict-opioid-prescribers.git
+$ git clone -b dwmeetup https://github.com/hongjsk/predict-opioid-prescribers.git
 $ cd predict-opioid-prescribers
 
 ```
